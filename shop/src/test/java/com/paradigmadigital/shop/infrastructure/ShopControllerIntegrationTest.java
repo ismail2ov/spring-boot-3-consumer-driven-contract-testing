@@ -26,7 +26,7 @@ class ShopControllerIntegrationTest {
 
         assertNotNull(result);
 
-        assertThat(result.products()).extracting("productId")
+        assertThat(result.products()).extracting("id")
             .contains(17035535L, 17005954L);
 
         assertThat(result.products()).extracting("quantity")
