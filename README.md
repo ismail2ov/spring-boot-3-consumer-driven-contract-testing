@@ -12,3 +12,13 @@ We have created a simple application with Spring Boot that does not yet have an 
 ``` shell
  mvn clean install -pl catalog
 ```
+
+
+## Consumer
+We have created a simple application with Spring Boot that does not yet have an implementation, but we have the contracts to be able to create the contracts.
+
+- Compile and package the consumer
+``` shell
+ mvn clean package -pl shop
+```
+
