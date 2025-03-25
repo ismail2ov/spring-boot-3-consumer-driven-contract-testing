@@ -1,5 +1,6 @@
 package com.paradigmadigital.catalog.domain;
 
+import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
@@ -13,5 +14,6 @@ public class Product {
 
     private String name;
 
-    private String price;
+    @Convert(converter = PriceConverter.class)
+    private Price price;
 }
