@@ -4,8 +4,6 @@ This is a straightforward example demonstrating how to use Spring Cloud Contract
 
 ## Producer
 
-We have created a simple application with Spring Boot that does not yet have an implementation, but we have the contracts to be able to create the contracts.
-
 ### Create the stubs
 
 - Compile and install the stubs
@@ -15,7 +13,6 @@ We have created a simple application with Spring Boot that does not yet have an 
 
 
 ## Consumer
-We have created a simple application with Spring Boot that does not yet have an implementation, but we have the contracts to be able to create the contracts.
 
 - Compile and package the consumer
 ``` shell
