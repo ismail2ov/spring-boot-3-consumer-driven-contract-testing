@@ -8,7 +8,7 @@ We have created a simple application with Spring Boot that does not yet have an 
 
 ### Create the stubs
 
-- Compile and install the stubs skipping the tests because we don't have any logic implemented yet
+- Compile and install the stubs
 ``` shell
- mvn clean install -pl catalog -DskipTests
+ mvn clean install -pl catalog
 ```
